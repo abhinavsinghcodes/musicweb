@@ -1,0 +1,158 @@
+body {
+    font-family: "Langar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.parent {
+    height: 675px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+
+.nav-bar {
+    height: auto;
+    width: 4%;
+    background-color: #191919;
+    border-radius: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+    /*Animations*/
+    animation: fadeInDown;
+    animation-duration: 0.7s;
+}
+
+.icons {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.icons span {
+    font-size: 50px;
+    transition: ease-out 0.2s;
+}
+
+.icons span:hover {
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 10px;
+}
+
+.icons span:active {
+    opacity: 0.7;
+}
+
+.song-columns {
+    height: fit-content;
+    width: 95%;
+    font-size: 20px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    transition: ease-out 0.3s;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.audio-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+}
+
+.audio-div button {
+    height: 40px;
+    width: 120px;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    color: black;
+    transition: ease-out 0.3s;
+}
+
+.audio-div button:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.05);
+}
+
+.audio-div button:active {
+    opacity: 0.7;
+}
+
+.audio-div a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.audio-div a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.song-columns:nth-child(2n) {
+    animation: fadeInRight;
+    animation-duration: 0.7s;
+}
+
+.song-columns:nth-child(2n+1) {
+    animation: fadeInLeft;
+    animation-duration: 0.7s;
+}
+
+.header-div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+h22 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+
+.icon1 {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,96 @@
+body {
+    font-family: "Langar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    overflow-y: scroll;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.parent {
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+
+.nav-bar {
+    height: auto;
+    width: 4%;
+    background-color: #191919;
+    border-radius: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+    /*Animations*/
+    animation: fadeInDown;
+    animation-duration: 0.7s;
+}
+
+.icons {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.icons span {
+    font-size: 50px;
+    transition: ease-out 0.2s;
+}
+
+.icons span:hover {
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 10px;
+}
+
+.icons span:active {
+    opacity: 0.7;
+}
+
+h22 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.icon1 {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    height: auto;
+    width: 96%;
+    background-color: rgba(25, 25, 25, 0.5);
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 5px;
+}
